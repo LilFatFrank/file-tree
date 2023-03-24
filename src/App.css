@@ -42,3 +42,7 @@
 .tree-children {
   padding-left: 1rem;
 }
+
+.selected {
+  background-color: #d0d0d0;
+}
