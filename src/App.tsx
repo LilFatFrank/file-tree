@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import FileTree, { TreeNodeProps } from './components/FileTree'
+import FileTree, { TreeNodeProps } from './component/FileTree'
 
 const data: TreeNodeProps = {
   name: 'project',
