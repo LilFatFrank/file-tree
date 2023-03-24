@@ -1,3 +1,11 @@
+# File Structure
+
+The FileTree component is the main component that renders the entire tree structure, while the TreeNode component is a recursive component that renders each individual node in the tree.
+
+The FileTree component takes in a prop called data, which is an object that represents the root node of the tree. The TreeNode component takes in props that represent a single node in the tree, as well as some additional props that are used to handle user interactions and maintain state.
+
+In TreeNode, we use useState to keep track of whether a node is open or closed (i.e. whether its children are visible or hidden), and we use useEffect to update the state of all nodes in the tree when the globalExpand prop changes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
